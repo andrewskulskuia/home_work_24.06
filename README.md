@@ -29,30 +29,32 @@ ___
 Download project
 
 1. Склонувати з Git Hub репозиторію
-    - опис та зображення (або gif анімація)
+    - ![заходеш на git hub натискаеш на code і копирюеш силку HTPPS и в bash терменалі пишеш git clone https://github.com/andrewskulskuia/weather_app.git](static/icon/icon6.png)
 
 2. Завантажити за допомогою zip-архіву
-    - опис та зображення (або gif анімація)
+    - ![заходеш на git hub натискаеш на code і натискаеш download ZIP потім розархівуй та відкрий папку та зайди в нутирь проекта  ](static/icon/icon7.png)
 ___
 <h4 id= 'create-venv'>Створення віртуального оточення проєкту:</h4>
 Сreate venv
 
 1. Windows
-    - опис та зображення (або gif анімація)
+    - ![щоб створити віртуальне оточення треба відкрити bash терменал та написати в терменал python -m venv venv](static/icon/icon2.png)
+    - ![щоб активувати віртуальне оточення треба відкрити bash терменал та написати в терменал source venv\Scripts\activate](static/icon/icon3.png)
 
 2. Mac OS або Linux
-    - опис та зображення (або gif анімація)
+    - ![щоб створити віртуальне оточення треба відкрити bash терменал та написати в терменал python3 -m venv venv](static/icon/icon4.png)
+    - ![щоб активувати віртуальне оточення треба відкрити bash терменал та написати в терменал source myenv/bin/activate](static/icon/icon5.png)
 ___
 <h4 id= 'download-modules-venv'>Завантаження модулів до віртуального оточення:</h4>
 Download modules venv
 
 1. Окремими модулями
-    - опис та зображення (або gif анімація)
+    - ![в bash терменалі треба написати наприклат pip install os всі модулі ми писали вище ](static/icon/icon9.png)
 2. За допомогою файлу requirements.txt
-    - опис та зображення (або gif анімація)
+    - ![в bash терменалі треба написати pip install -r requirements.txt ](static/icon/icon8.png)
 ___
 <h4 id= 'start-project'>Старт проєкту:</h4>
 Start project
 
-зробіть опис через команду python main.py
+для запуску проекта потрібно написати в bash терменалі python main.py
 
