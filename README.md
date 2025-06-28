@@ -29,28 +29,36 @@ ___
 Download project
 
 1. Склонувати з Git Hub репозиторію
+    - заходеш на git hub натискаеш на code і копирюеш силку HTPPS и в bash терменалі пишеш git clone https://github.com/andrewskulskuia/weather_app.git
     - ![заходеш на git hub натискаеш на code і копирюеш силку HTPPS и в bash терменалі пишеш git clone https://github.com/andrewskulskuia/weather_app.git](static/icon/icon6.png)
 
-2. Завантажити за допомогою zip-архіву
+3. Завантажити за допомогою zip-архіву
+    - заходеш на git hub натискаеш на code і натискаеш download ZIP потім розархівуй та відкрий папку та зайди в нутирь проекта
     - ![заходеш на git hub натискаеш на code і натискаеш download ZIP потім розархівуй та відкрий папку та зайди в нутирь проекта  ](static/icon/icon7.png)
 ___
 <h4 id= 'create-venv'>Створення віртуального оточення проєкту:</h4>
 Сreate venv
 
 1. Windows
+    - щоб створити віртуальне оточення треба відкрити bash терменал та написати в терменал python -m venv venv
     - ![щоб створити віртуальне оточення треба відкрити bash терменал та написати в терменал python -m venv venv](static/icon/icon2.png)
+    - щоб активувати віртуальне оточення треба відкрити bash терменал та написати в терменал source venv\Scripts\activate
     - ![щоб активувати віртуальне оточення треба відкрити bash терменал та написати в терменал source venv\Scripts\activate](static/icon/icon3.png)
 
-2. Mac OS або Linux
-    - ![щоб створити віртуальне оточення треба відкрити bash терменал та написати в терменал python3 -m venv venv](static/icon/icon4.png)
-    - ![щоб активувати віртуальне оточення треба відкрити bash терменал та написати в терменал source myenv/bin/activate](static/icon/icon5.png)
+3. Mac OS або Linux
+    - щоб створити віртуальне оточення Mac або  Linux треба відкрити bash терменал та написати в терменал python3 -m venv venv
+    - ![щоб створити віртуальне оточення Mac або  Linux треба відкрити bash терменал та написати в терменал python3 -m venv venv](static/icon/icon4.png)
+    - щоб активувати віртуальне оточення Mac або Linux треба відкрити bash терменал та написати в терменал source venv/bin/activate
+    - ![щоб активувати віртуальне оточення Mac або Linux треба відкрити bash терменал та написати в терменал source venv/bin/activate](static/icon/icon5.png)
 ___
 <h4 id= 'download-modules-venv'>Завантаження модулів до віртуального оточення:</h4>
 Download modules venv
 
 1. Окремими модулями
+    - в bash терменалі треба написати наприклат pip install os всі модулі ми писали вище
     - ![в bash терменалі треба написати наприклат pip install os всі модулі ми писали вище ](static/icon/icon9.png)
-2. За допомогою файлу requirements.txt
+3. За допомогою файлу requirements.txt
+    - в bash терменалі треба написати pip install -r requirements.txt
     - ![в bash терменалі треба написати pip install -r requirements.txt ](static/icon/icon8.png)
 ___
 <h4 id= 'start-project'>Старт проєкту:</h4>
